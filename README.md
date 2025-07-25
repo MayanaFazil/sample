@@ -36,7 +36,8 @@ pip install -r requirements.txt
 
 4. Configure your PostgreSQL database settings in `kpa_backend/settings.py`:
 
-- DATABASES = {
+```
+DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.postgresql_psycopg2',
 'NAME': 'kpa_db',
@@ -46,7 +47,7 @@ pip install -r requirements.txt
 'PORT': '5432',
 }
 }  
-
+```
 
 5. Apply migrations to create database tables:
 python manage.py makemigrations
