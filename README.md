@@ -47,7 +47,7 @@ pip install -r requirements.txt
 }
 }  
 
-```
+
 5. Apply migrations to create database tables:
 python manage.py makemigrations
 python manage.py migrate
