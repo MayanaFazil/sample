@@ -50,14 +50,15 @@ DATABASES = {
 ```
 
 5. Apply migrations to create database tables:
+```
 python manage.py makemigrations
 python manage.py migrate
-
+```
 6. Run the development server:
-
+```
 python manage.py runserver
+```
 
-text
 
 ## API Endpoints
 
